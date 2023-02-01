@@ -1,0 +1,12 @@
+export { default as css } from "./languages/css.png";
+export { default as filestack } from "./languages/filestack.png";
+export { default as git } from "./languages/git.png";
+export { default as github } from "./languages/github.png";
+export { default as html } from "./languages/html.png";
+export { default as mongo } from "./languages/mongo.png";
+export { default as nodejs } from "./languages/nodejs.png";
+export { default as photoshop } from "./languages/photoshop.png";
+export { default as postman } from "./languages/postman.png";
+export { default as react } from "./languages/react.png";
+export { default as render } from "./languages/render.png";
+export { default as tailwindcss } from "./languages/tailwindcss.png";
