@@ -10,3 +10,4 @@ export { default as postman } from "./languages/postman.png";
 export { default as react } from "./languages/react.png";
 export { default as render } from "./languages/render.png";
 export { default as tailwindcss } from "./languages/tailwindcss.png";
+export { default as aboutme } from "./pages/aboutme.jpeg";
