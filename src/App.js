@@ -1,5 +1,11 @@
+import Home from "./pages/Home";
+
 function App() {
-  return <div>My Profile</div>;
+  return (
+    <div className="max-w-[1024px] mx-auto px-2">
+      <Home />
+    </div>
+  );
 }
 
 export default App;
