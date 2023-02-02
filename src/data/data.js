@@ -1,14 +1,19 @@
 export const button_txt = {
-  contact: "Contact Me",
-  dl_cv: "Download my CV",
   show_more: "Show More",
   demo: "Demo",
   send: "Send",
 };
 
+export const HEAD = {
+  head: "Jeff.",
+};
+
 export const HERO = {
-  hi: "HI",
-  context: "Working...",
+  hi: "Hi",
+  context:
+    ", and I graduated from the Southern Luzon State University in 2019 with a degree of Bachelor of Industrial Technology Major in Computer Technology. My interests are in Front End developing, and I love to create beautiful and performant websites with delightful user experiences.",
+  contact: "Contact Me",
+  dl_cv: "Download my CV",
 };
 
 export const ABOUT_ME = {
