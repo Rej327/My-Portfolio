@@ -11,6 +11,8 @@ import {
   reactimg,
   renderimg,
   tailwindimg,
+  siderealsolar,
+  clyblog,
 } from "../assets/index";
 
 export const button_txt = {
@@ -89,14 +91,14 @@ export const TECHNOLOGY = [
 
 export const PROJECT = [
   {
-    frontend: "FRONTEND",
-    image: "sample.png",
-    link: "sidereal-solar.netlify.app",
+    type: "FRONTEND",
+    image: siderealsolar,
+    link: "https://sidereal-solar.netlify.app",
   },
   {
-    frontend: "FULLSTACK",
-    image: "sample.png",
-    link: "cly-blog.netlify.app",
+    type: "FULLSTACK",
+    image: clyblog,
+    link: "https://cly-blog.netlify.app",
   },
 ];
 
