@@ -1,3 +1,18 @@
+import {
+  htmlimg,
+  cssimg,
+  filestackimg,
+  githubimg,
+  gitimg,
+  mongoimg,
+  nodejsimg,
+  photoshopimg,
+  postmanimg,
+  reactimg,
+  renderimg,
+  tailwindimg,
+} from "../assets/index";
+
 export const button_txt = {
   demo: "Demo",
   send: "Send",
@@ -23,51 +38,51 @@ export const ABOUT_ME = {
 
 export const TECHNOLOGY = [
   {
-    icon: "sample.png",
+    icon: htmlimg,
     skill: "HTML",
   },
   {
-    icon: "sample.png",
+    icon: cssimg,
     skill: "CSS",
   },
   {
-    icon: "sample.png",
+    icon: reactimg,
     skill: "REACT",
   },
   {
-    icon: "sample.png",
+    icon: mongoimg,
     skill: "MongoDB",
   },
   {
-    icon: "sample.png",
+    icon: nodejsimg,
     skill: "NodeJS",
   },
   {
-    icon: "sample.png",
-    skill: "Tailwind CSS",
+    icon: tailwindimg,
+    skill: "TailwindCSS",
   },
   {
-    icon: "sample.png",
+    icon: filestackimg,
     skill: "Filestack",
   },
   {
-    icon: "sample.png",
+    icon: renderimg,
     skill: "Render",
   },
   {
-    icon: "sample.png",
+    icon: gitimg,
     skill: "Git",
   },
   {
-    icon: "sample.png",
+    icon: githubimg,
     skill: "Github",
   },
   {
-    icon: "sample.png",
+    icon: postmanimg,
     skill: "Postman",
   },
   {
-    icon: "sample.png",
+    icon: photoshopimg,
     skill: "Photoshop",
   },
 ];
