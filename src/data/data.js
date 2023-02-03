@@ -1,5 +1,4 @@
 export const button_txt = {
-  show_more: "Show More",
   demo: "Demo",
   send: "Send",
 };
@@ -18,7 +17,8 @@ export const HERO = {
 
 export const ABOUT_ME = {
   head: "About Me",
-  context: "Working...",
+  context: "I love design, Web development, Technology and Story",
+  button: "Show More",
 };
 
 export const TECHNOLOGY = [

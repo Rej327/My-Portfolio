@@ -6,4 +6,16 @@
 body {
   background-color: ivory;
   font-family: "Poppins", sans-serif;
+  padding: 0 20px;
+  opacity: 0.95;
+}
+
+strong {
+  opacity: 0.8;
+}
+
+.technology {
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: -5px 5px 9px #cccccc, 5px -5px 9px #ffffff;
 }

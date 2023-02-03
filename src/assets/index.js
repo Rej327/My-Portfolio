@@ -9,5 +9,6 @@ export { default as photoshop } from "./languages/photoshop.png";
 export { default as postman } from "./languages/postman.png";
 export { default as react } from "./languages/react.png";
 export { default as render } from "./languages/render.png";
-export { default as tailwindcss } from "./languages/tailwindcss.png";
-export { default as aboutme } from "./pages/aboutme.jpeg";
+export { default as tailwind } from "./languages/tailwind.png";
+export { default as aboutme } from "./pages/aboutme.jpg";
+export { default as about } from "./pages/about.jpeg";
