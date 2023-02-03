@@ -4,7 +4,7 @@ import { headings } from "../styles/styles";
 
 const Project = () => {
   return (
-    <div className="mx-auto text-center my-20">
+    <div className="mx-auto text-center my-48">
       <h1 className={headings.header}>MY PROJECT</h1>
       <div className="sm:flex justify-between my-10 mx-auto w-fit">
         {PROJECT.map((proj) => (
