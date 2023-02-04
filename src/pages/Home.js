@@ -9,7 +9,7 @@ import Technology from "../section/Technology";
 
 const Home = () => {
   return (
-    <div>
+    <div className="max-w-[1024px] mx-auto px-2">
       <Navigation />
       <div className="md:px-20">
         <Profile />
