@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineDownload } from "react-icons/ai";
 import { HERO } from "../data/data";
 import { buttonStyle } from "../styles/styles";
 
@@ -17,9 +18,14 @@ const Welcome = () => {
         I'm <strong>Jefferson Resurreccion</strong>
         {HERO.context}
       </p>
-      <div className="w-fit mx-auto md:mx-0">
+      <div className="w-fit mx-auto md:mx-0 flex">
         <button className={buttonStyle.button}>{HERO.contact}</button>
-        <button className={buttonStyle.button}>{HERO.dl_cv}</button>
+        <button
+          className={`flex justify-center items-center ${buttonStyle.button}`}
+        >
+          {HERO.dl_cv}
+          <AiOutlineDownload className="text-xl" />
+        </button>
       </div>
     </div>
   );
