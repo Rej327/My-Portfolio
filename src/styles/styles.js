@@ -10,3 +10,7 @@ export const headings = {
 export const sub_headings = {
   sub_head: "text-3xl py-2 opacity-50 text-center py-4",
 };
+
+export const social_icon = {
+  style: "text-gray-700 hover:-translate-y-2 duration-500",
+};

@@ -1,6 +1,7 @@
 import React from "react";
 import Aboutme from "../section/Aboutme";
 import Contact from "../section/Contact";
+import Footer from "../section/Footer";
 import Myproject from "../section/Myproject";
 import Navigation from "../section/Navigation";
 import Profile from "../section/Profile";
@@ -16,6 +17,7 @@ const Home = () => {
         <Technology />
         <Myproject />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

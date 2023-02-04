@@ -3,6 +3,7 @@ import { BsFillTelephoneInboundFill } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { SiIndeed } from "react-icons/si";
+import { social_icon } from "../styles/styles";
 
 const Social = () => {
   return (
@@ -12,24 +13,24 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <FaFacebookF className="text-gray-700 hover:-translate-y-2 duration-500" />
+        <FaFacebookF className={social_icon.style} />
       </a>
       <a
         href="https://www.linkedin.com/in/jefferson-resurreccion-9279391b7/"
         target="_blank"
         rel="noreferrer"
       >
-        <AiFillLinkedin className="text-gray-700 hover:-translate-y-2 duration-500" />
+        <AiFillLinkedin className={social_icon.style} />
       </a>
       <a
         href="https://profile.indeed.com/?hl=en_PH&co=PH&from=gnav-homepage"
         target="_blank"
         rel="noreferrer"
       >
-        <SiIndeed className="text-gray-700 hover:-translate-y-2 duration-500" />
+        <SiIndeed className={social_icon.style} />
       </a>
       <a href="tel:09502433069">
-        <BsFillTelephoneInboundFill className="text-gray-700 hover:-translate-y-2 duration-500" />
+        <BsFillTelephoneInboundFill className={social_icon.style} />
       </a>
     </div>
   );
