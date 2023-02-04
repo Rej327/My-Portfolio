@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
+import { Link } from "react-scroll";
 import { HERO } from "../data/data";
 import { buttonStyle } from "../styles/styles";
 
@@ -19,7 +20,16 @@ const Welcome = () => {
         {HERO.context}
       </p>
       <div className="w-fit mx-auto md:mx-0 flex">
-        <button className={buttonStyle.button}>{HERO.contact}</button>
+        <Link
+          activeClass="active"
+          to="contact-me"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={1000}
+        >
+          <button className={buttonStyle.button}>{HERO.contact}</button>
+        </Link>
         <button
           className={`flex justify-center items-center ${buttonStyle.button}`}
         >

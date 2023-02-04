@@ -7,13 +7,15 @@ import { headings } from "../styles/styles";
 
 const Contact = () => {
   return (
-    <Globalspace>
-      <h1 className={`text-center ${headings.header}`}>CONTACT</h1>
-      <Globalcomp>
-        <Contactinfo />
-        <Contactinput />
-      </Globalcomp>
-    </Globalspace>
+    <div id="contact-me">
+      <Globalspace>
+        <h1 className={`text-center ${headings.header}`}>CONTACT</h1>
+        <Globalcomp>
+          <Contactinfo />
+          <Contactinput />
+        </Globalcomp>
+      </Globalspace>
+    </div>
   );
 };
 
