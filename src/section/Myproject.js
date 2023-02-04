@@ -1,11 +1,12 @@
 import React from "react";
 import Project from "../components/Project";
+import Globalspace from "../Global/Globalspace";
 
 const Myproject = () => {
   return (
-    <div>
+    <Globalspace>
       <Project />
-    </div>
+    </Globalspace>
   );
 };
 

@@ -1,15 +1,18 @@
 import React from "react";
 import Tech from "../components/Tech";
+import Globalspace from "../Global/Globalspace";
 import { headings } from "../styles/styles";
 
 const Technology = () => {
   return (
-    <div className="text-center sm:my-56">
-      <h1 className={headings.header}>Technology</h1>
-      <div>
-        <Tech />
+    <Globalspace>
+      <div className="text-center">
+        <h1 className={headings.header}>Technology</h1>
+        <div>
+          <Tech />
+        </div>
       </div>
-    </div>
+    </Globalspace>
   );
 };
 

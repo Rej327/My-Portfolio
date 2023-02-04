@@ -4,7 +4,7 @@ export const buttonStyle = {
 };
 
 export const headings = {
-  header: "text-5xl opacity-50 md:mt-[75px]",
+  header: "text-5xl opacity-50 mb-10",
 };
 
 export const sub_headings = {
