@@ -6,7 +6,12 @@ import { Link } from "react-scroll";
 
 const About = () => {
   return (
-    <div className="mx-auto mt-10 md:mt-0 text-center md:text-left md:mr-auto w-80">
+    <div
+      data-aos="fade-left"
+      data-aos-easing="linear"
+      data-aos-duration="750"
+      className="mx-auto mt-10 md:mt-0 text-center md:text-left md:mr-auto w-80"
+    >
       <h1 className="text-5xl opacity-50 md:mt-[75px]">{ABOUT_ME.head}</h1>
       <p className="text-xl md:mt-10 my-4 md:my-0">{ABOUT_ME.context}</p>
       <Link

@@ -6,7 +6,13 @@ import { headings } from "../styles/styles";
 const Technology = () => {
   return (
     <Globalspace>
-      <div id="technology" className="text-center">
+      <div
+        id="technology"
+        className="text-center"
+        data-aos="fade-in"
+        data-aos-easing="linear"
+        data-aos-duration="750"
+      >
         <h1 className={headings.header}>Technology</h1>
         <div>
           <Tech />

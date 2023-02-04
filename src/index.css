@@ -8,6 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
   padding: 0 20px;
   opacity: 0.95;
+  scroll-behavior: smooth;
 }
 
 /* Name */

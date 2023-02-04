@@ -4,7 +4,12 @@ import { headings, sub_headings } from "../styles/styles";
 
 const Project = () => {
   return (
-    <div className="mx-auto text-center">
+    <div
+      data-aos="fade-in"
+      data-aos-easing="linear"
+      data-aos-duration="750"
+      className="mx-auto text-center"
+    >
       <h1 className={headings.header}>MY PROJECT</h1>
       <div className="sm:flex justify-between mt-10 mx-auto w-fit">
         {PROJECT.map((proj) => (

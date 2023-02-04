@@ -6,7 +6,12 @@ import { buttonStyle } from "../styles/styles";
 
 const Welcome = () => {
   return (
-    <div className="max-w-[405px]">
+    <div
+      data-aos="fade-right"
+      data-aos-easing="linear"
+      data-aos-duration="750"
+      className="max-w-[405px]"
+    >
       <div className="my-2 flex items-end">
         <h1 className="text-8xl opacity-50">{HERO.hi}</h1>
         <img

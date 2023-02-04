@@ -7,7 +7,12 @@ import { headings } from "../styles/styles";
 
 const Contact = () => {
   return (
-    <div id="contact-me">
+    <div
+      data-aos="fade-in"
+      data-aos-easing="linear"
+      data-aos-duration="750"
+      id="contact-me"
+    >
       <Globalspace>
         <h1 className={`text-center ${headings.header}`}>CONTACT</h1>
         <Globalcomp>
