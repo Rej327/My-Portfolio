@@ -1,7 +1,7 @@
 import React from "react";
 import { BsCodeSlash } from "react-icons/bs";
 import { PROJECT } from "../data/data";
-import { buttonStyle, headings, sub_headings } from "../styles/styles";
+import { buttonStyle, headings, project, sub_headings } from "../styles/styles";
 
 const Project = () => {
   return (
@@ -12,7 +12,7 @@ const Project = () => {
       className="mx-auto text-center"
     >
       <h1 className={headings.header}>MY PROJECT</h1>
-      <div className="sm:flex justify-between mt-10 mx-auto w-fit">
+      <div className={project.container}>
         {PROJECT.map((proj) => (
           <div className="max-w-[25rem] p-4">
             <h1 className={sub_headings.sub_head}>{proj.type}</h1>

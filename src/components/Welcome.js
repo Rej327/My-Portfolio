@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Link } from "react-scroll";
 import { HERO, hi } from "../data/data";
-import { buttonStyle } from "../styles/styles";
+import { buttonStyle, hero } from "../styles/styles";
 
 const Welcome = () => {
   return (
@@ -12,15 +12,15 @@ const Welcome = () => {
       data-aos-duration="750"
       className="max-w-[405px]"
     >
-      <div className="my-2 flex items-end">
+      <div className={hero.main}>
         <h1 className="text-8xl opacity-50">{HERO.hi}</h1>
         <img src={hi.img} alt="wave" className="w-20" />
       </div>
-      <p className="text-xl py-2 text-justify max-w-[400px]">
+      <p className={hero.context}>
         I'm <strong>Jefferson Resurreccion</strong>
         {HERO.context}
       </p>
-      <div className="w-fit mx-auto md:mx-0 flex">
+      <div className={hero.button}>
         <Link
           activeClass="active"
           to="contact-me"

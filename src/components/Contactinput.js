@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import { RiSendPlaneLine } from "react-icons/ri";
-import { buttonStyle, sub_headings } from "../styles/styles";
+import { buttonStyle, contactinput, sub_headings } from "../styles/styles";
 import { GET_IN_TOUCH } from "../data/data";
 
 const Contactinput = () => {
@@ -31,28 +31,28 @@ const Contactinput = () => {
   };
 
   return (
-    <div className="mx-auto w-full">
-      <div className="h-auto w-auto mx-5 ">
+    <div className={contactinput.main}>
+      <div className={contactinput.container}>
         <h1 className={sub_headings.sub_head}>{GET_IN_TOUCH.get_in_touch}</h1>
         <form ref={form} onSubmit={sendEmail}>
-          <div className="grid grid-cols-1 lg:flex gap-4 w-full">
-            <div className="input-group w-full">
+          <div className={contactinput.formDiv}>
+            <div className={contactinput.inputDiv}>
               <input
                 type="text"
                 name="name"
                 required
-                className="input w-full"
+                className={contactinput.input}
               />
-              <label class="user-label">Name</label>
+              <label className={contactinput.label}>Name</label>
             </div>
-            <div className="input-group w-full">
+            <div className={contactinput.inputDiv}>
               <input
                 type="text"
                 name="email"
                 required
-                className="input w-full"
+                className={contactinput.input}
               />
-              <label class="user-label">Email</label>
+              <label className={contactinput.label}>Email</label>
             </div>
           </div>
           <div className="input-group h-auto w-full mt-4">
@@ -60,9 +60,9 @@ const Contactinput = () => {
               type="text"
               name="message"
               required
-              className="input w-full h-28"
+              className="input w-full h-40"
             />
-            <label class="user-label">Message</label>
+            <label class={contactinput.label}>Message</label>
           </div>
           <button
             type="submit"

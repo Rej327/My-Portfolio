@@ -11,6 +11,10 @@ body {
   scroll-behavior: smooth;
 }
 
+p {
+  color: #4b5563;
+}
+
 /* Name */
 
 strong {
@@ -37,7 +41,7 @@ strong {
   border-radius: 1rem;
   background: ivory;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 14px;
   color: #86867f;
   transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }

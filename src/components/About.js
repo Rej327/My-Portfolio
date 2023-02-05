@@ -1,6 +1,6 @@
 import React from "react";
 import { ABOUT_ME } from "../data/data";
-import { buttonStyle } from "../styles/styles";
+import { aboutsection, buttonStyle } from "../styles/styles";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
 
@@ -10,10 +10,10 @@ const About = () => {
       data-aos="fade-left"
       data-aos-easing="linear"
       data-aos-duration="750"
-      className="mx-auto mt-10 md:mt-0 text-center lg:text-left md:mr-auto w-80"
+      className={aboutsection.div}
     >
-      <h1 className="text-5xl opacity-50 md:mt-[75px]">{ABOUT_ME.head}</h1>
-      <p className="text-xl md:mt-10 py-2 md:my-0">{ABOUT_ME.context}</p>
+      <h1 className={aboutsection.h1}>{ABOUT_ME.head}</h1>
+      <p className={aboutsection.p}>{ABOUT_ME.context}</p>
       <Link
         activeClass="active"
         to="technology"
