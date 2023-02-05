@@ -60,7 +60,7 @@ const Contactinput = () => {
               type="text"
               name="message"
               required
-              className="input w-full"
+              className="input w-full h-28"
             />
             <label class="user-label">Message</label>
           </div>

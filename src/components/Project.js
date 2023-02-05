@@ -1,6 +1,7 @@
 import React from "react";
+import { BsCodeSlash } from "react-icons/bs";
 import { PROJECT } from "../data/data";
-import { headings, sub_headings } from "../styles/styles";
+import { buttonStyle, headings, sub_headings } from "../styles/styles";
 
 const Project = () => {
   return (
@@ -27,6 +28,14 @@ const Project = () => {
                 {proj.link}
               </a>
             </p>
+            <div className="w-fit mx-auto mt-2">
+              <a href={proj.codeLink} target="_blank" rel="noreferrer">
+                <button className={`flex items-center ${buttonStyle.button}`}>
+                  {proj.code}
+                  <BsCodeSlash className="ml-2" />
+                </button>
+              </a>
+            </div>
           </div>
         ))}
       </div>

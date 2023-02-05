@@ -2,7 +2,7 @@ import React from "react";
 import { ImLocation } from "react-icons/im";
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { SiIndeed } from "react-icons/si";
 import { sub_headings } from "../styles/styles";
 
@@ -55,6 +55,17 @@ const Contactinfo = () => {
               rel="noreferrer"
             >
               Indeed
+            </a>
+          </p>
+
+          <p className="text-gray-600 pb-3 flex text-sm">
+            <AiFillGithub className="text-3xl my-auto pr-2" />
+            <a
+              href="https://github.com/Rej327"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
             </a>
           </p>
         </div>
