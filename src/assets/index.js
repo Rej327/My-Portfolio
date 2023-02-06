@@ -12,5 +12,5 @@ export { default as renderimg } from "./languages/renderimg.png";
 export { default as tailwindimg } from "./languages/tailwindimg.png";
 export { default as aboutme } from "./pages/aboutme.jpg";
 export { default as about } from "./pages/about.jpeg";
-export { default as siderealsolar } from "./projects/siderealsolar.png";
-export { default as clyblog } from "./projects/clyblog.png";
+export { default as siderealsolar } from "./projects/siderealsolar.gif";
+export { default as clyblog } from "./projects/clyblog.gif";
