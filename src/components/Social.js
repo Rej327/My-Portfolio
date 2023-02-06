@@ -4,35 +4,24 @@ import { FaFacebookF } from "react-icons/fa";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { SiIndeed } from "react-icons/si";
 import { social_icon } from "../styles/styles";
+import { Links } from "../data/data";
 
 const Social = () => {
   return (
     <div className="flex justify-between items-center w-24 sm:w-48">
-      <a href="https://github.com/Rej327" target="_blank" rel="noreferrer">
+      <a href={Links.github} target="_blank" rel="noreferrer">
         <AiFillGithub className={social_icon.style} />
       </a>
-      <a
-        href="https://www.facebook.com/resujeff27"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={Links.facebook} target="_blank" rel="noreferrer">
         <FaFacebookF className={social_icon.style} />
       </a>
-      <a
-        href="https://www.linkedin.com/in/jefferson-resurreccion-9279391b7/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={Links.linkedin} target="_blank" rel="noreferrer">
         <AiFillLinkedin className={social_icon.style} />
       </a>
-      <a
-        href="https://profile.indeed.com/?hl=en_PH&co=PH&from=gnav-homepage"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={Links.indeed} target="_blank" rel="noreferrer">
         <SiIndeed className={social_icon.style} />
       </a>
-      <a href="tel:09502433069">
+      <a href={Links.tel}>
         <BsFillTelephoneInboundFill className={social_icon.style} />
       </a>
     </div>
