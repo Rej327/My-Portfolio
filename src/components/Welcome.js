@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Link } from "react-scroll";
+import { mycv } from "../assets";
 import { HERO, hi } from "../data/data";
 import { buttonStyle, hero } from "../styles/styles";
 
@@ -31,12 +32,14 @@ const Welcome = () => {
         >
           <button className={buttonStyle.button}>{HERO.contact}</button>
         </Link>
-        <button
-          className={`flex justify-center items-center ${buttonStyle.button}`}
-        >
-          {HERO.dl_cv}
-          <AiOutlineDownload className="text-xl" />
-        </button>
+        <a href={mycv} download={mycv} target="_blank" rel="noreferrer">
+          <button
+            className={`flex justify-center items-center ${buttonStyle.button}`}
+          >
+            {HERO.dl_cv}
+            <AiOutlineDownload className="text-xl" />
+          </button>
+        </a>
       </div>
     </div>
   );
