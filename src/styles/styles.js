@@ -26,7 +26,8 @@ export const sub_headings = {
 export const contactaddress = {
   main: "lg:flex justify-center",
   container: "lg:w-[405px] px-4",
-  icon_label: "pb-3 flex text-sm my-auto flex items-center ",
+  icon_label:
+    "pb-3 flex text-sm my-auto flex items-center hover:scale-105 hover:text-[#30363f] duration-300",
   icon: "text-4xl my-auto pr-2 mr-4 w-7",
 };
 
