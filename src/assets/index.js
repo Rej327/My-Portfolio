@@ -15,3 +15,4 @@ export { default as about } from "./pages/about.jpeg";
 export { default as siderealsolar } from "./projects/siderealsolar.gif";
 export { default as clyblog } from "./projects/clyblog.gif";
 export { default as mycv } from "./cv/mycv.pdf";
+export { default as me } from "./cv/Jeff.jpg";

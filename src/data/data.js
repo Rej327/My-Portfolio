@@ -13,6 +13,7 @@ import {
   tailwindimg,
   siderealsolar,
   clyblog,
+  me,
 } from "../assets/index";
 
 export const button_txt = {
@@ -30,6 +31,7 @@ export const HERO = {
     ", and I am 23 years old. I graduated from Southern Luzon State University year 2019 with a degree of Bachelor of Industrial Technology Major In Computer Technology. I see my self as an enthusiastic, self-motivated, reliable, responsible and hard working person. I am fond in Front End developing, and I love to create beautiful and performant websites with enjoyable user experiences. ",
   contact: "Contact Me",
   dl_cv: "My CV",
+  profile: me,
 };
 
 export const ABOUT_ME = {

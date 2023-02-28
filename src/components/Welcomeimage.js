@@ -1,12 +1,12 @@
 import React from "react";
-import { Links } from "../data/data";
+import { HERO } from "../data/data";
 import { heroImg } from "../styles/styles";
 
 const Welcomeimage = () => {
   return (
     <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="750">
       <img
-        src={Links.hiGif}
+        src={HERO.profile}
         alt="Jefferson Resurreccion"
         className={heroImg.img}
       />
